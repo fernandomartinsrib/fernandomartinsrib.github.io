@@ -16,7 +16,7 @@ timezone: America/Sao_Paulo
 
 title: Fernando M. Ribeiro # the main title
 
-tagline: Developer # it will display as the sub-title
+tagline: Back-end Developer # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   Back-end developer | Golang | Python | AWS | Kubernetes
@@ -75,10 +75,12 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: assets/images/avatar.png
+avatar: assets/img/avatars/avatar.png
 
 # boolean type, the global switch for TOC in posts.
 toc: true
+
+mermaid: true
 
 comments:
   active: # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
