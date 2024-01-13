@@ -133,7 +133,7 @@ $ go get github.com/joho/godotenv
 Add your application configuration to your **.env** file in the root of your project:
 
 ```
-ENVIROMENT=local
+ENVIRONMENT=local
 SECRET_KEY=YOURSECRETKEY
 ```
 
@@ -155,7 +155,7 @@ func main() {
     log.Fatal("Error loading .env file")
   }
 
-  environment := os.Getenv("ENVIROMENT")
+  environment := os.Getenv("ENVIRONMENT")
   secretKey := os.Getenv("SECRET_KEY")
   
   ...
