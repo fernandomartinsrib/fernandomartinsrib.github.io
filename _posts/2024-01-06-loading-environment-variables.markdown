@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Loading environment variables in Go"
-date:   2024-01-09 23:44:07 -0300
+date:   2024-06-11 17:15:00 -0300
 categories: golang
 published: true
 tags:
@@ -13,7 +13,7 @@ tags:
 image:
   path: /assets/img/thumbs/env_vars.png
   lqip: /assets/img/thumbs/env_vars.png
-  alt: environment variables Golang.
+  alt: Loading environment variables in Go.
 ---
 
 ## Why should we set environment variables?
@@ -157,7 +157,7 @@ func main() {
 
   environment := os.Getenv("ENVIRONMENT")
   secretKey := os.Getenv("SECRET_KEY")
-  
+
   ...
 }
 ```
